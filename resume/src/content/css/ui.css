@@ -1,0 +1,67 @@
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+
+    /* inherit font & color from ancestor */
+    color: inherit;
+    font: inherit;
+
+    /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+    line-height: normal;
+
+    /* Corrects font smoothing for webkit */
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+
+    /* Corrects inability to style clickable `input` types in iOS */
+    -webkit-appearance: none;
+}
+
+.upper-btn:hover {
+    border-bottom: 2px solid white;
+}
+
+.upper-btn:active {
+    border-bottom: 2px solid #268AE2;
+}
+
+.stroke-btn {
+    border: 2px solid white;
+    padding: 10px 20px;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+.stroke-btn:hover {
+    border: 2px solid #268AE2;
+    padding: 10px 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.messenger-btn:hover {
+    filter: invert(68%) sepia(61%) saturate(6403%) hue-rotate(187deg) brightness(93%) contrast(91%);
+}
+
+.knopka:hover {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.btn-all {
+    border: 2px solid white;
+    padding: 10px 20px;
+    transition-duration: 0.4s;
+    border-radius: 20px;
+    background-color: white;
+    color: #173B5D;
+    font-weight: bold;
+}
